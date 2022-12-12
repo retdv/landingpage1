@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web template</title>
+    <!-- web style link -->
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- loader -->
+    <div class="load" id="load">
+      <div class="load-one"></div>
+      <div class="load-two"></div>
+      <div class="load-three"></div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar px-5 navbar-expand-lg bg-white navbar-light">
+      <div class="container-fluid p-2">
+        <a class="navbar-brand" href="#">Retdev</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="btn btn-outline-dark ms-4 rounded-pill px-4 py-2"
+            role="button"
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- jumbotron section -->
+    <div class="container-fluid" id="jumbotron">
+      <div class="jumbotron h-100">
+        <div class="mt-5">
+          <div class="content ps-5 pt-2">
+            <h1 class="fw-bold display-4">ACHIEVE YOUR MARKETING GOALS</h1>
+            <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              nihil minima excepturi laborum assumenda debitis hic suscipit fuga
+              adipisci inventore.
+            </p>
+            <a
+              href="#"
+              class="btn btn-dark rounded-pill px-4 py-2"
+              role="button"
+              >Try it free!</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-dark ms-4 rounded-pill px-4 py-2"
+              role="button"
+              >View demo</a
+            >
+            <div class="authority row mt-5">
+              <div class="auth-item col-5 mb-1">
+                <div class="line"></div>
+                <h4 class="auth-title">
+                  <span id="authCount">142</span> Milion
+                </h4>
+                <p class="auth-description">emails everyday</p>
+              </div>
+              <div class="auth-item col-5 mb-1">
+                <div class="line"></div>
+                <h4 class="auth-title"><span id="authCount">16</span> Years</h4>
+                <p class="auth-description">expertise</p>
+              </div>
+              <div class="auth-item col-5">
+                <div class="line"></div>
+                <h4 class="auth-title"><span id="authCount">330</span>K+</h4>
+                <p class="auth-description">users</p>
+              </div>
+              <div class="auth-item col-5">
+                <div class="line"></div>
+                <h4 class="auth-title"><span id="authCount">124</span>K+</h4>
+                <p class="auth-description">to get started</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-0 circle-container">
+            <div class="circle1" id="circle1"></div>
+            <div class="circle2" id="circle2"></div>
+            <div class="circle3" id="circle3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sponsor section -->
+    <div id="sponsor" class="sponsor container-fluid">
+      <h3>Facebook</h3>
+      <h3>Microsoft</h3>
+      <h3>Amazon</h3>
+      <h3>Udemy</h3>
+    </div>
+    <!-- features -->
+    <div id="features" class="features container-fluid">
+      <div class="text row">
+        <div class="col px-5">
+          <h2 class="display-4 fw-bold">All Advance Features For You</h2>
+        </div>
+        <div class="col px-5">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+          vitae quo magni eos neque expedita, explicabo, autem perspiciatis
+          harum, maxime esse assumenda minima repudiandae officiis labore in
+          optio. Blanditiis, sequi!
+        </div>
+      </div>
+      <div class="features-cards row justify-content-space-around">
+        <div class="card rounded-pill text-center col">
+          <div class="card-body">
+            <img src="assets/icons/clip.svg" alt="clip svg icon" />
+            <h5 class="card-title">Track Your Links</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-pill text-center col">
+          <div class="card-body">
+            <img src="assets/icons/stats.svg" alt="clip svg icon" />
+            <h5 class="card-title">Email Performs</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-pill text-center col">
+          <div class="card-body">
+            <img src="assets/icons/time.svg" alt="clip svg icon" />
+            <h5 class="card-title">Live Segmentation</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-pill text-center col">
+          <div class="card-body">
+            <img src="assets/icons/file.svg" alt="clip svg icon" />
+            <h5 class="card-title">Export Analysis</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div class="about" id="about">
+      <div class="row">
+        <div class="col elems">
+          <div class="elem">
+            <div class="rounded-pill pill pill1"></div>
+            <div class="rounded-pill pill pill-image1"></div>
+          </div>
+          <div class="elem">
+            <div class="rounded-pill pill pill2"></div>
+            <div class="rounded-pill pill pill-image2"></div>
+          </div>
+        </div>
+        <div class="col text">
+          <h2 class="display-4 fw-bold">
+            Optimize Email Message To Hit Your Team Goals
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quos
+            provident explicabo ratione repellendus eveniet maiores obcaecati
+            dolorum tempore neque. Molestias, facilis eaque natus maiores
+            repellendus omnis quasi non laboriosam.
+          </p>
+          <br />
+          <a href="#" class="btn btn-dark rounded-pill px-4 py-2" role="button"
+            >View More</a
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text">
+          <h2 class="display-4 fw-bold">
+            Optimize Email Message To Hit Your Team Goals
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quos
+            provident explicabo ratione repellendus eveniet maiores obcaecati
+            dolorum tempore neque. Molestias, facilis eaque natus maiores
+            repellendus omnis quasi non laboriosam.
+          </p>
+          <br />
+          <a href="#" class="btn btn-dark rounded-pill px-4 py-2" role="button"
+            >View More</a
+          >
+        </div>
+        <div class="col elems elems2">
+          <div class="elem">
+            <div class="rounded-pill pill pill1"></div>
+            <div class="rounded-pill pill pill-image1"></div>
+          </div>
+          <div class="elem">
+            <div class="rounded-pill pill pill2"></div>
+            <div class="rounded-pill pill pill-image2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="elems circle rounded-circle"></div>
+        <div class="float-content">
+          <div class="text">
+            <h3 class="display-4 fw-bold mb-4">
+              Make It Easy Send Email Marketing Just In Your Hand
+            </h3>
+
+            <div class="border border-dark rounded-pill search-box">
+              <input
+                class="form-control me-2 rounded-pill search shadow-none"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-dark rounded-pill search-button"
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+    <script>
+      // loading script
+      const load = document.getElementById("load");
+      window.addEventListener("load", () => {
+        load.style.display = "none";
+      });
+      // circle animation & parallax
+      const circle = [".circle1", ".circle2", ".circle3"];
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.to("#circle1", {
+        scrollTrigger: {
+          trigger: "#circle1",
+          scrub: 2,
+        },
+        y: 300,
+        duration: 3,
+      });
+
+      gsap.to("#circle2", {
+        scrollTrigger: {
+          trigger: "#circle2",
+          scrub: 2,
+        },
+        y: 200,
+        duration: 4,
+      });
+
+      gsap.to("#circle3", {
+        scrollTrigger: {
+          trigger: "#circle3",
+          scrub: 2,
+        },
+        y: 100,
+        duration: 5,
+      });
+
+      gsap.from(circle, {
+        y: "-=200",
+        duration: 2,
+        ease: "back.out(1.7)",
+        stagger: 0.1,
+        opacity: 0,
+      });
+      // counting text effect
+      const authItems = document.querySelectorAll("#authCount");
+
+      gsap.from(authItems, {
+        textContent: 0,
+        duration: 4,
+        ease: "power1.out",
+        snap: { textContent: 1 },
+        stagger: {
+          each: 0,
+          onUpdate: function () {
+            this.targets()[0].innerHTML = this.targets()[0].textContent;
+          },
+        },
+      });
+      // card animation
+      gsap.from(".card", {
+        scrollTrigger: {
+          trigger: ".card",
+          start: "top center",
+        },
+        y: "-=150",
+        duration: 1.5,
+        ease: "back.out(1.7)",
+        stagger: 0.1,
+        opacity: 0,
+      });
+    </script>
+  </body>
+</html>
